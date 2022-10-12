@@ -1,5 +1,4 @@
 import { useTask } from "../context/";
-import { QueCreate } from "../lib/TaskActions";
 import { SubmitButton } from "./SubmitButton";
 
 export const TaskFrom = () => {
@@ -13,7 +12,7 @@ export const TaskFrom = () => {
 
         await setQue([...que, data]);
         setJob("");
-    } 
+    }
 
     return (
         <div className="flex p-10">
@@ -35,6 +34,6 @@ export const TaskFrom = () => {
                 m-0
                 focus:font-medium  focus:bg-white focus:border-transparent focus:ring-0 focus:outline focus:outline-zinc-600" placeholder="Add a new task"/>
             <SubmitButton />
-        </div> 
+        </div>
     )
 }
