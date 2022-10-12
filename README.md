@@ -5,7 +5,7 @@
 >npm install // or what are you using.  
 >npm run dev.    
 
-# What will I learn from this example?
+# What will i learn from this example?
 
 >React Router.   
 >State Management.   
