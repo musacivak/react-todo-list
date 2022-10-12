@@ -5,15 +5,15 @@
 # How does it work?
 
 >npm install // or what are you using.  
->npm run dev.    
+>npm run dev    
 
 # What will i learn from this example?
 
->React Router.   
->State Management.   
->Components & pages.   
->Components props.     
->If else condition in className.   
->Array map.   
->Tailwind.   
->Tailwind Plugins.   
+>React Router   
+>State Management   
+>Components & pages   
+>Components props     
+>If else condition in className   
+>Array map   
+>Tailwind   
+>Tailwind Plugins   
