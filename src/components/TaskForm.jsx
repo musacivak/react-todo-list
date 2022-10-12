@@ -16,7 +16,7 @@ export const TaskFrom = () => {
 
     return (
         <div className="flex p-10">
-            <input type="text" value={job} onChange={event => setJob(event.target.value)} onKeyPress={event => {(event.key === 'Enter' && job.length > 3) ? newJob() : ''}}
+            <input type="text" value={job} onChange={event => setJob(event.target.value)} onKeyDown={event => {(event.key === 'Enter' && job.length > 3) ? newJob() : ''}}
             className="form-control
                 block
                 w-full

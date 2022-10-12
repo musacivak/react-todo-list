@@ -1,7 +1,6 @@
 import { TaskFrom } from "../components/TaskForm";
 import { TaskList } from "../components/TaskList";
 import { TaskTitle } from "../components/TaskTitle";
-import { useTask } from "../context";
 
 export default function HomePage() {
     return (
