@@ -15,6 +15,7 @@ export const TaskFrom = () => {
     }
 
     return (
+        <>
         <div className="flex p-10">
             <input type="text" value={job} onChange={event => setJob(event.target.value)} onKeyDown={event => {(event.key === 'Enter' && job.length > 3) ? newJob() : ''}}
             className="form-control
@@ -35,5 +36,7 @@ export const TaskFrom = () => {
                 focus:font-medium  focus:bg-white focus:border-transparent focus:ring-0 focus:outline focus:outline-zinc-600" placeholder="Add a new task"/>
             <SubmitButton />
         </div>
+        <span className="grid place-items-center text-amber-500 font-bold">{ "{ Press Enter for add entry }" }</span>
+        </>
     )
 }
